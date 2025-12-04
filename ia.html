@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="./design.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #170050;">
+        <div class="container">
+            <a href="index.html"><img class="mobile-logo" src="./CTE Logo.png" alt="logo" width="13%"></a>
+            <a class="navbar-brand" href="index.html"><img class="ctelogo" src="./CTE Logo.png" alt="logo" width="10%"><strong>SLSU - BTLED</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Programs
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="ict.html"><strong>ICT</strong></a></li>
+                        <li><a class="dropdown-item" href="he.html"><strong>HE</strong></a></li>
+                        <li><a class="dropdown-item" href="ia.html"><strong>IA</strong></a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            
+            <!-- Image -->
+            <div class="col-md-6">
+                <img src="./pic1.jpg" class="img-fluid rounded shadow" alt="pic1">
+            </div>
+
+            <!-- Description -->
+            <div class="col-md-6">
+                <h2>Section Title 1</h2>
+                <p>
+                    This is a sample description. You can replace this text with your own content. 
+                    This section shows the image on the left and the description on the right.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+  <div class="carousel-container">
+    <div class="carousel-slide">
+        <img src="./pic1.jpg" alt="">
+        <img src="./pic2.jpg" alt="">
+        <img src="./pic3.jpg" alt="">
+        <img src="./pic1.jpg" alt="">
+        <img src="./pic2.jpg" alt="">
+        <img src="./pic3.jpg" alt="">
+        <img src="./pic1.jpg" alt="">
+        <img src="./pic2.jpg" alt="">
+        <img src="./pic3.jpg" alt="">
+    </div>
+
+    <button class="prev" id="prevBtn">&#10094;</button>
+    <button class="next" id="nextBtn">&#10095;</button>
+</div>
+
+<section class="video-section">
+  <div class="video-container">
+    <video controls poster="poster.jpg">
+      <source src="./Portfoliovideo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="video-text">
+    <h2>School Activities Highlights</h2>
+    <p>Watch our students engage in exciting activities and curriculum projects. Learn more about our academic programs and extracurricular events.</p>
+  </div>
+</section>
+
+
+<footer id="contact" class="bg-dark text-light py-4">
+  <div class="container">
+    <div class="row">
+
+      <!-- Contact Info -->
+      <div class="col-md-6 mb-3">
+        <h5>Contact Us</h5>
+        <p><img class="loc1" src="./img/map.png" alt="location" width="3%"><i class="bi bi-geo-alt-fill"></i> 123 Street, City, Philippines</p>
+        <p><img class="loc1" src="./img/phone-chat.png" alt="telephone" width="3%"><i class="bi bi-telephone-fill"></i> +63 912 345 6789</p>
+        <p><img class="loc1" src="./img/gmail.png" alt="gmail" width="3%"><i class="bi bi-envelope-fill"></i> example@gmail.com</p>
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="col-md-6 mb-3">
+        <h5>Follow Us</h5>
+            <div class="followcontainer">
+                <a href="https://www.facebook.com/" class="followtext">
+                    <i class="bi bi-facebook"><img class="follow" src="./img/facebook.png" alt="Facebook" width="5%">SLSU-BTLED</i>
+                </a>
+
+                <a href="https://www.instagram.com/" class="followtext">
+                <i class="bi bi-instagram"><img class="follow" src="./img/social.png" alt="gmail" width="5%">SLSU-BTLED</i>
+                </a>
+            </div>
+                
+            <div>
+                <a href="https://www.twitter.com/" class="followtext">
+                <i class="bi bi-twitter"><img class="follow" src="./img/twitter.png" alt="gmail" width="5%">SLSU-BTLED</i>
+                </a>
+
+                <a href="https://www.gmail.com/" class="followtext">
+                <i class="bi bi-envelope"><img class="follow" src="./img/email.png" alt="gmail" width="5%">SLSU-BTLED</i>
+                </a>
+            </div>
+
+            </div>
+
+    </div>
+
+    <hr class="border-light">
+
+    <p class="text-center mb-0">&copy; 2025 Your Website. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+
+<div class="animated-bg"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
