@@ -1,0 +1,85 @@
+@media (max-width: 515px) {
+
+    /* General navbar spacing */
+    .navbar {
+        padding: 8px 12px;
+        text-align: center;
+    }
+
+    /* Mobile logo: Make it bigger and centered */
+    .mobile-logo {
+        width: 22% !important;
+    }
+
+    /* Desktop logo + text (brand) hidden on extra small screens */
+    .navbar-brand {
+        display: none !important;
+    }
+
+    /* Make toggler (hamburger) slightly larger */
+    .navbar-toggler {
+        padding: 4px 6px;
+        font-size: 1rem;
+    }
+
+    /* Dropdown items readability */
+    .dropdown-item {
+        font-size: 0.95rem;
+        padding: 8px 12px;
+    }
+
+    /* Collapse menu background */
+    #navbarNav {
+        background-color: #170050;
+        padding: 10px;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        padding: 10px 0;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+  .video-section {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .video-container video {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .video-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .video-text p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 450px) {
+  .video-section {
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .video-container video {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .video-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .video-text p {
+    font-size: 0.9rem;
+  }
+
+}
+
