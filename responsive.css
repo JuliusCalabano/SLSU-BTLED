@@ -85,4 +85,35 @@
 
 }
 
+/*Feedback*/
+@media (max-width: 450px) {
+
+    .feedback-section {
+        padding: 20px;
+    }
+
+    .feedback-section h2 {
+        font-size: 1.4rem;
+    }
+
+    .form-container iframe {
+        height: 1000px; /* Google Forms need extra height on mobile */
+        max-width: 100%;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .feedback-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .form-container iframe {
+        height: 950px;
+        max-width: 100%;
+    }
+}
+
+
 
