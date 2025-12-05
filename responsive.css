@@ -5,7 +5,9 @@
         padding: 8px 12px;
         text-align: center;
     }
-
+     body{
+        margin-top: 100px;
+    }
     /* Mobile logo: Make it bigger and centered */
     .mobile-logo {
         width: 22% !important;
@@ -82,4 +84,5 @@
   }
 
 }
+
 
