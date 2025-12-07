@@ -9,7 +9,11 @@
         rel="stylesheet"
     >
     <link rel="stylesheet" href="./design.css">
- <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Boldonse&family=Rammetto+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!-- PRELOADER -->
@@ -19,7 +23,7 @@
         </div>
         <h1>Southern Luzon State University - Main Campus</h1>
         <h1>Bachelor of Technology and Livelihood Education</h1>
-    </div>
+        </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #170050;">
         <div class="container">
@@ -58,12 +62,50 @@
         </div>
     </nav>
 
-    <div class="container text-black mt-5">
-        <h1>BTLEd - Thesis Project</h1>
-        <p>This is a project using HTML, CSS, Javascript</p>
+    <section class="photo-collage1" style="position: relative;">
+    <div class="photo-collage">
+        <!-- images here -->
+        <img src="./pic1.jpg" class="square" alt="">
+        <img src="./pic2.jpg" class="rectangle" alt="">
+        <img src="./pic3.jpg" class="square" alt="">
+        <img src="./pic3.jpg" class="rectangle" alt="">
+        <img src="./pic2.jpg" class="square" alt="">
+        <img src="./pic1.jpg" class="square" alt="">
     </div>
 
-    <section class="py-5">
+    <!-- Overlay Title -->
+    <div class="overlay-title">
+        <h1 class="btled-title btled-typing" id="btledTitle"></h1>
+        <p class="btled-subtitle btled-typing" id="btledSubtitle"></p>
+    </div>
+</section>
+
+<section class="Tagline">
+    <div class="tagline-content">
+        <h1>Your Future Starts <span class="highlight">here</span></h1>
+        <a href="#intro" class="btn">Explore BTLED</a>
+    </div>
+</section>
+
+
+<section class="intro" id="intro">
+    <div class="intro-content">
+        <h3>A Brief Introduction to BTLED</h3>
+        <p class="briefintroduction">The Bachelor of Technology in Learning and Education (BTLED) program is designed to prepare future educators with a strong foundation in both technology and education. It combines the principles of pedagogy, curriculum design, and educational technology, equipping students with the skills to effectively teach and engage learners in a modern classroom. BTLED graduates are trained to:
+
+        Develop innovative teaching strategies using digital tools and multimedia resources.
+
+        Integrate technology into lesson planning and classroom management.
+
+        Conduct action research to improve learning outcomes.
+
+        Foster critical thinking, creativity, and problem-solving among learners.
+
+        With a focus on both practical classroom experience and technological proficiency, the BTLED program empowers students to become dynamic educators ready to face the challenges of 21st-century education.</p>
+    </div>
+</section>
+
+<section class="py-5">
     <div class="container">
         <div class="row align-items-center">
             
@@ -84,6 +126,79 @@
         </div>
     </div>
 </section>
+
+<section class="benefits">
+    <div>
+        <h3>Benefits:</h3>
+        <ul>
+            <li>Gain strong pedagogical skills for teaching diverse learners.</li>
+            <li>Develop expertise in integrating technology into classroom instruction.</li>
+            <li>Learn to design creative and interactive lesson plans.</li>
+            <li>Master practical skills in home economics, ICT, and livelihood education.</li>
+            <li>Enhance problem-solving, critical thinking, and innovation skills.</li>
+            <li>Gain experience in classroom management and student assessment.</li>
+            <li>Prepare for career opportunities in teaching, training, and education technology.</li>
+            <li>Opportunity to conduct action research to improve learning outcomes.</li>
+            <li>Acquire skills to adapt to 21st-century education challenges.</li>
+            <li>Build a professional portfolio and network for future career growth.</li>
+        </ul>
+    </div>
+</section>
+
+<section class="whytochoose">
+    <h2>Why Choose BTLED</h2>
+    <div class="testimonial-carousel">
+        <div class="testimonial-track">
+
+            <!-- Testimonial 1 -->
+            <div class="testimonial">
+                <div class="icon">-------🎓-------</div>
+                <p class="quote">"BTLED gave me the skills to integrate technology in my classroom."</p>
+                <p class="name">Jane Doe, Batch 2023</p>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial">
+                <div class="icon">-------🎓-------</div>
+                <p class="quote">"The program prepared me for modern teaching challenges."</p>
+                <p class="name">John Smith, Batch 2022</p>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial">
+                <div class="icon">-------🎓-------</div>
+                <p class="quote">"I learned to design engaging lessons with technology."</p>
+                <p class="name">Alice Lee, Batch 2023</p>
+            </div>
+            <!-- Testimonial 4 -->
+            <div class="testimonial">
+                <div class="icon">-------🎓-------</div>
+                <p class="quote">"I learned to design engaging lessons with technology."</p>
+                <p class="name">Alice Lee, Batch 2023</p>
+            </div>
+            <!-- Testimonial 5 -->
+            <div class="testimonial">
+                <div class="icon">-------🎓-------</div>
+                <p class="quote">"I learned to design engaging lessons with technology."</p>
+                <p class="name">Alice Lee, Batch 2023</p>
+            </div>
+            <!-- Testimonial 6 -->
+            <div class="testimonial">
+                <div class="icon">-------🎓-------</div>
+                <p class="quote">"I learned to design engaging lessons with technology."</p>
+                <p class="name">Alice Lee, Batch 2023</p>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="prevBtn">&#10094;</button>
+        <button class="nextBtn">&#10095;</button>
+    </div>
+</section>  
+
+
+
+
 
 <section class="py-5">
     <div class="container">
@@ -126,25 +241,6 @@
         </div>
     </div>
 </section>
-
-
-<div class="carousel-container">
-    <div class="carousel-slide">
-        <img src="./pic1.jpg" alt="">
-        <img src="./pic2.jpg" alt="">
-        <img src="./pic3.jpg" alt="">
-        <img src="./pic1.jpg" alt="">
-        <img src="./pic2.jpg" alt="">
-        <img src="./pic3.jpg" alt="">
-        <img src="./pic1.jpg" alt="">
-        <img src="./pic2.jpg" alt="">
-        <img src="./pic3.jpg" alt="">
-    </div>
-
-    <button class="prev" id="prevBtn">&#10094;</button>
-    <button class="next" id="nextBtn">&#10095;</button>
-</div>
-
 
 
 <footer id="contact" class="bg-dark text-light py-4">
@@ -196,5 +292,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./script.js"></script>
   </body>
-
 </html>
